@@ -95,7 +95,6 @@
 .contactform h1 {
   font-family: "Source Code Pro", monospace;
   padding: 12px 0;
-  /* text-align: center; */
 }
 
 .contactform form div {
@@ -122,4 +121,55 @@
 #form-check-input {
   width: 24px;
   margin: 3px 0;
+}
+
+/* Blog.html Css */
+
+.blogItem {
+  margin: 20px;
+  font-family: "Playfair Display", serif;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Source Code Pro", monospace;
+}
+.intro h2{
+  font-family: "Playfair Display", serif;
+  margin: 12px;
+}
+.intro p{
+  font-family: "Source Code Pro", monospace;
+  margin: 12px;
+}
+.skillsContainer{
+padding: 12px;
+}
+.skillsItem{
+  display: flex;
+  align-items: center;
+}
+.skills{
+  width: 270px;
+  height: 6px;
+  /* background-color: red; */
+  border: 2px solid black;
+}
+.hundered{
+  width: 270px;
+  background-color: rgb(206, 28, 28);
+}
+.fifty{
+  width: 150px;
+  background-color: rgb(248, 105, 105);
+}
+.Eighty{
+  width: 210px;
+  background-color: rgb(248, 48, 48);
+}
+.Ninety{
+  width: 230px;
+  background-color: rgb(248, 48, 48);
 }
