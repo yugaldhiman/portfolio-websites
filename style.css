@@ -5,10 +5,12 @@
   padding: 0;
 }
 .sidebar {
+  position: absolute;
   background-color: rgb(241, 239, 239);
-  width: 435px;
+  /* width: 435px; */
   height: 100vh;
   font-family: "Playfair Display", serif;
+  transition: transform 0.3s ease-in;
 }
 .sidebar nav {
   padding: 45px;
@@ -90,6 +92,7 @@
   font-family: "Playfair Display", serif;
   padding-top: 145px;
   padding: 0 34px;
+  margin: 0 100px;
 }
 
 .contactform h1 {
@@ -136,40 +139,71 @@ h1 {
 p {
   font-family: "Source Code Pro", monospace;
 }
-.intro h2{
+.intro h2 {
   font-family: "Playfair Display", serif;
   margin: 12px;
 }
-.intro p{
+.intro p {
   font-family: "Source Code Pro", monospace;
   margin: 12px;
 }
-.skillsContainer{
-padding: 12px;
+.skillsContainer {
+  padding: 12px;
 }
-.skillsItem{
+.skillsItem {
   display: flex;
   align-items: center;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 800;
 }
-.skills{
+.skills {
   width: 270px;
   height: 6px;
   /* background-color: red; */
   border: 2px solid black;
 }
-.hundered{
+.hundered {
   width: 270px;
   background-color: rgb(206, 28, 28);
 }
-.fifty{
+.fifty {
   width: 150px;
   background-color: rgb(248, 105, 105);
 }
-.Eighty{
+.Eighty {
   width: 210px;
   background-color: rgb(248, 48, 48);
 }
-.Ninety{
+.Ninety {
   width: 230px;
   background-color: rgb(248, 48, 48);
+}
+
+.sidebarGo {
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+.ham {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.cross {
+  margin-left: 175px;
+  margin-top: 10px;
+}
+
+@media (max-width: 1615px) {
+  .devpic{
+    display: none;
+  }
+  /* .sidebar {
+    transform: translate(-443px, 0px);
+    position: absolute;
+  } */
 }
