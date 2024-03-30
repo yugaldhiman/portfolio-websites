@@ -45,30 +45,35 @@
   height: 58vh;
 }
 .moreabout {
-  font-size: 27px;
+  font-size: 2em;
   margin-top: 23px;
   font-family: "Playfair Display", serif;
 }
 .devinfo {
+  font-size: 16px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   font-family: "Source Code Pro", monospace;
 }
 .hello {
-  font-size: 65px;
+  font-size: 3em;
 }
 .name {
-  font-size: 50px;
+  font-size: 3em;
   font-weight: bold;
   font-family: "Playfair Display", serif;
 }
 .about {
-  font-size: 40px;
+  font-size: 2.5em;
+}
+.buttons {
+  margin-top: 2.2em;
+  font-size: 16px;
 }
 .btn {
-  margin-top: 15px;
-  font-size: 20px;
+  margin: 3px 3px;
+  font-size: 2em;
   font-weight: bold;
   background-color: dodgerblue;
   color: white;
@@ -90,14 +95,14 @@
 
 .contactform {
   font-family: "Playfair Display", serif;
-  padding-top: 145px;
+  /* padding-top: 145px; */
   padding: 0 34px;
-  margin: 0 100px;
+  margin: 100px;
 }
 
 .contactform h1 {
   font-family: "Source Code Pro", monospace;
-  padding: 12px 0;
+  padding-left: 30px;
 }
 
 .contactform form div {
@@ -107,10 +112,14 @@
 }
 
 .contactform form div input {
-  width: 26vw;
+  /* width: 26vw; */
   border-radius: 5px;
   margin: 6px 0 0 0;
   padding: 3px;
+}
+
+.contactform form {
+  margin: 0 40px;
 }
 #emailHelp {
   font-size: 15px;
@@ -128,6 +137,10 @@
 
 /* Blog.html Css */
 
+.blogContainer {
+  margin: 40px 100px;
+}
+
 .blogItem {
   margin: 20px;
   font-family: "Playfair Display", serif;
@@ -138,6 +151,9 @@ h1 {
 
 p {
   font-family: "Source Code Pro", monospace;
+}
+.intro {
+  margin: 40px 100px;
 }
 .intro h2 {
   font-family: "Playfair Display", serif;
@@ -199,11 +215,17 @@ p {
 }
 
 @media (max-width: 1615px) {
-  .devpic{
+  .buttons{
+    font-size: 5px;
+  }
+  .devpic {
     display: none;
   }
-  /* .sidebar {
-    transform: translate(-443px, 0px);
-    position: absolute;
-  } */
+  .devinfo {
+    font-size: 10px;
+  }
+  .intro .blogContainer,
+  .contactform {
+    margin: 50px 8px;
+  }
 }
